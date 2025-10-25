@@ -97,7 +97,6 @@ class cargarPalabra {
          while (rset.next()){
              String palabra = rset.getString("Palabra");
              ListaPalabras.add(palabra);
-             //System.out.println(palabra);
          }
          
          //SELECCIÓN DE PALABRA AL AZAHAR DE LA ARRAY LISTAPALABRAS
